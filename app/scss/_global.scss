@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-size: calc(100vw / 1920 *10);
+
+  }
+
+body {
+  min-height: 100%;
+  max-width: 192rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+  @extend %poppins-400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+ section{
+   border-bottom: 2px solid #000000;
+   &:last-child{
+     border: none;
+   }
+ }
+
+  a {
+    text-decoration: none;
+    color: red;
+    padding: 5rem ;
+    margin-bottom: 5rem;
+  }
+  h1{
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  li{
+    margin-bottom: 2rem;
+    font-size: 3rem ;
+  }
+  p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+
+}
+.container{
+  max-width: 122.4rem;
+  margin: 0 auto;
+}
